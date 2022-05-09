@@ -1,0 +1,31 @@
+/* 
+***    Customise the scrollbar
+*/
+
+/*width*/
+::-webkit-scrollbar {
+width:10px;
+}
+/*track*/
+::-webkit-scrollbar-track {
+background:rgb(244, 244, 244);
+border-style:solid;
+border-color:rgb(244, 244, 244);
+}
+/*thumb*/
+::-webkit-scrollbar-thumb {
+background:rgb(34, 34, 34);
+border-width:1px;
+border-style:solid;
+border-color:rgb(34, 34, 34);
+}
+/*thumb hover*/
+::-webkit-scrollbar-thumb:hover {
+border-width:1px;
+border-style:solid;
+}
+/*thumb pressed*/
+::-webkit-scrollbar-thumb:active {
+border-width:1px;
+border-style:solid;
+}
