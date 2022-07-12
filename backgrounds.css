@@ -1,0 +1,8 @@
+/*
+** Background transparent style (squares)
+*/
+
+.element-class {
+    background-image: repeating-conic-gradient(#eee 0 25%, transparent 0 50%);
+    background-size: 16px 16px;
+}

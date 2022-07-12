@@ -1,3 +1,4 @@
+
 // Raccourcir la description d'un item et ajouter [...] à la fin.
 
 let allElements = document.getElementsByClassName('textClass');
@@ -11,7 +12,6 @@ for (i = 0; i < allElements.length; i++) {
         allElements[i].innerHTML = newString;
   }
 }
-
 
 // Set text color to white or black depending on the background
 
